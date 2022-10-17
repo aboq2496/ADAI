@@ -22,7 +22,8 @@ def merge_multiple_cocos(path: str):
     return merged
 
 
-save_coco_file(merge_multiple_cocos('./2DB3/test/annotations'),'merged_test')
+save_coco_file(merge_multiple_cocos('../data/2DBB/data_2/annotations'),'merged_test')
+
 
 def merge_cocos_fetch_first_ten(path: str, step:int):
     '''
